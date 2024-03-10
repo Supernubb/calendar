@@ -1,5 +1,3 @@
-"use client";
-
 interface CalendarProps {
   locale?: string;
   selectedDate: Date;
