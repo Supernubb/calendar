@@ -1,5 +1,5 @@
 import { useCalendar } from "./hooks/useCalendar";
-import s from "./Calendar.module.scss";
+import s from "./calendar.module.scss";
 
 interface CalendarProps {
   locale?: string;
@@ -22,7 +22,7 @@ const Calendar = ({
 
   console.log(state);
 
-  return <div className={s.calendar__test}>Calendarrrrrr</div>;
+  return <div className={s.calendar}>Calendar</div>;
 };
 
 export default Calendar;

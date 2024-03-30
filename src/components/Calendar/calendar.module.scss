@@ -1,0 +1,12 @@
+.calendar {
+  width: 200px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background-color: $color-additional;
+
+  &__header {
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    // background-color: $background-color-calendar-header;
+  }
+}

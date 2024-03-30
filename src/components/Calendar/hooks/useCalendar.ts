@@ -1,10 +1,10 @@
-import { getWeekDaysNames } from "@/src/utils/helpers/date/getWeekDaysNames";
+import { getWeekDaysNames } from "@/utils/helpers/date/getWeekDaysNames";
 import {
   createDate,
   createMonth,
   getMonthNumberOfdays,
   getMonthsNames,
-} from "@/src/utils/helpers/date/index";
+} from "@/utils/helpers/date/index";
 import { useMemo, useState } from "react";
 
 interface UseCalendarParams {
